@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.headdd{
+    margin: 20px;
+    padding: 0px 40px;
+    background-color: black;
+}
+.headbutton{
+    height: 30px;
+    width: 100px;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    transition:0.2s;
+
+
+}
+.headbutton:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+}
+.crypto{
+    display: inline-block;
+    margin-right: 300px;
+   
+}
+.chat-container{
+    height: 600px;
+    width: 100%;
+    background-color: #123458;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cryptoIMG{
+    height: 600px;
+    padding: 20px;
+}
+.headtext{
+    margin: 10px;
+    padding: 30px;
+}
+.paragraphforcrypo{
+    margin: 10px;
+    font-weight: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.joinus{
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    color: white;
+    background-color: #E9762B;
+    border-radius: 25px;
+    font-weight:100px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 1 1 1 1 rgba(227, 217, 217, 0.1);
+}
+.joinus:hover{
+    background-color: #f86300;
+
+}
+.cryptogif{
+    margin: 7px;
+    width: 10px;
+}
+.chat-box{
+    height: 600px;
+    width: 80%;
+    background-color:#1e1e2e;
+    margin: 30px;
+    padding: 20px;
+    padding: 10px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
